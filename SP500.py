@@ -6,6 +6,13 @@ import seaborn as sns
 import numpy as np
 import yfinance as yf
 
+st.set_page_config(
+    page_title="SP500",
+    page_icon="📈",
+    layout="wide",
+)
+
+
 st.title('S&P 500')
 
 st.markdown("""
